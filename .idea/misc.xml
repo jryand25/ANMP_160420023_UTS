@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.115" />
         <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/activity_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/author_list_item.xml" value="0.365625" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/book_list_item.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_author_detail.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_author_list.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_book_detail.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_book_list.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_journal_detail.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_journal_list.xml" value="0.1762917933130699" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/layout/journal_list_item.xml" value="0.365625" />
+        <entry key="..\:/AndroidStudio/ANMP/UTS/ANMP_160420023_UTS/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/itemHome">
+
+    <fragment
+        android:id="@+id/itemHome"
+        android:name="com.ryan.anmp_160420023_uts.view.HomeFragment"
+        android:label="Ubaya Library"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.ryan.anmp_160420023_uts.view.BookDetailFragment"
+        android:label="Book Detail"
+        tools:layout="@layout/fragment_book_detail" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemBook"
+        android:name="com.ryan.anmp_160420023_uts.view.BookListFragment"
+        android:label=" Book Collection"
+        tools:layout="@layout/fragment_book_list">
+        <action
+            android:id="@+id/actionBookDetail"
+            app:destination="@id/bookDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemJournal"
+        android:name="com.ryan.anmp_160420023_uts.view.JournalListFragment"
+        android:label=" Journal Collection"
+        tools:layout="@layout/fragment_journal_list">
+        <action
+            android:id="@+id/actionJournalDetail"
+            app:destination="@id/journalDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/journalDetailFragment"
+        android:name="com.ryan.anmp_160420023_uts.view.JournalDetailFragment"
+        android:label="Journal Detail"
+        tools:layout="@layout/fragment_journal_detail" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemAuthor"
+        android:name="com.ryan.anmp_160420023_uts.view.AuthorListFragment"
+        android:label="Author List"
+        tools:layout="@layout/fragment_author_list">
+        <action
+            android:id="@+id/actionAuthorDetail"
+            app:destination="@id/authorDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorDetailFragment"
+        android:name="com.ryan.anmp_160420023_uts.view.AuthorDetailFragment"
+        android:label="Author Detail"
+        tools:layout="@layout/fragment_author_detail" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemProfile"
+        android:name="com.ryan.anmp_160420023_uts.view.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
